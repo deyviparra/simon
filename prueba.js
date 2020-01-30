@@ -44,11 +44,11 @@ function nuevoNivel(nivel) {
 
 }
 function ganoElJuego() {
-    swal('Platzi', 'Felicitaciones, ganaste el juego!', 'success')
+    swal('Hey', 'Felicitaciones, ganaste el juego!', 'success')
         .then(this.inicializar())
 }
 function perdioElJuego() {
-    swal('Platzi', 'Lo lamentamos, perdiste el juego!', 'error')
+    swal('Ouhh', 'Lo lamentamos, perdiste el juego!', 'error')
         .then(() => {
             this.eliminarEventoClic()
             this.inicializar()
